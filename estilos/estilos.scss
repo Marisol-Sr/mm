@@ -1,4 +1,4 @@
-* {
+@import "index" * {
   margin: 4px;
   padding: 0px;
   box-sizing: border-box;
@@ -193,50 +193,6 @@ select {
 .respuesta {
   color: #423e3f;
   padding-bottom: 15px;
-}
-
-.footer {
-  padding-top: 1rem;
-  background-color: #423e3f;
-}
-
-.footer-sm {
-  background-color: #423e3f;
-  color: white;
-}
-
-.footer-sm a {
-  color: white;
-}
-
-.footer-sm a i {
-  font-size: 1rem;
-  margin-left: 1rem;
-}
-
-.footer-sm__icons {
-  text-align: center;
-  padding: 1.5rem 0;
-}
-
-.footer-bottom {
-  padding: 1.5rem 0;
-}
-
-.footer-bottom__copyright {
-  text-align: center;
-  color: rgb(0, 178, 209);
-  font-weight: 400;
-}
-
-.footer-bottom__copyright a {
-  color: rgb(0, 178, 209);
-  text-decoration: none;
-}
-
-.footer-bottom__copyright a:hover {
-  color: #006e69;
-  text-decoration: underline;
 }
 
 .footerback {
