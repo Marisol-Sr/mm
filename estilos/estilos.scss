@@ -334,3 +334,39 @@ $vato {
 .vato: 100px {
   height: .vato/10;
 }
+
+.footer {
+  padding-top: 1rem;
+  background-color: #423e3f;
+  -sm {
+    background-color: #423e3f;
+    color: white;
+    a {
+      color: white;
+      i {
+        font-size: 1rem;
+        margin-left: 1rem;
+      }
+    }
+    __icons {
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+    bottom {
+      padding: 1.5rem 0;
+      __copyright {
+        text-align: center;
+        color: rgb(0, 178, 209);
+        font-weight: 400;
+        a {
+          color: rgb(0, 178, 209);
+          text-decoration: none;
+        }
+        a:hover {
+          color: #006e69;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
