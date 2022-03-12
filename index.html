@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Aqui puse lo de la web raro-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
     <!--Fuentes de google? Investigar si asi agarra las 2 -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100;1,700&display=swap" rel="stylesheet">
@@ -26,15 +30,25 @@
       <!-- Logo del header-->
       <div>
         <img src="sources/Logo1.png" alt="logo" width="10%">
-      <!--Lista de la barra de navegación-->
-        <nav class="nav">
-         <ul class="navlist">
-           <li class="navitem"><a class="navlink" href="index.html">Inicio</a></li>
-           <li class="navitem"><a class="navlink" href="productos.html"> Nuestros productos</a></li>
-           <li class="navitem"><a class="navlink" href="nosotros.html">Sobre nosotros</a></li>
-           <li class="navitem"><a class="navlink" href="preguntas.html">Preguntas frecuentes</a></li>
-           <li class="navitem"><a class="navlink" href="contacto.html">Contacto</a></li>
-          </ul>
+        <!--aqui lo de menu hamburguesa-->
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="opciones">   
+           <ul class="navbar-nav">
+             <li class="navitem"><a class="navlink" href="index.html">Inicio</a></li>
+              <li class="navitem"><a class="navlink" href="productos.html"> Nuestros productos</a></li>
+              <li class="navitem"><a class="navlink" href="nosotros.html">Sobre nosotros</a></li>
+              <li class="navitem"><a class="navlink" href="preguntas.html">Preguntas frecuentes</a></li>
+              <li class="navitem"><a class="navlink" href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+        <!--Lista de la barra de navegación-->
+      
         </nav>
       </div>
       <div>
